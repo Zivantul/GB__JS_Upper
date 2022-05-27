@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+.cartButton {
+    position: relative;
+    right: 130px;
+}
+
+.cart {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    top: 50px;
+    right: 120px;
+    background: black;
+    color: aquamarines;
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.CartH4 {
+    color: aquamarine;
+    margin-bottom: 10px;
+}
+
+.Burger {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.prodContainer {
+    margin-bottom: 15px;
+}
+
+.prodItem {
+    margin-top: 30px;
+}
+
+.burger_type {
+    margin-bottom: 10px;
+}
+
+.putToCartButton {
+    color: aquamarine;
+    background-color: black;
+    padding: 10px 30px
+}
