@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="main.js"></script>
+</body>
+<form>
+    <div class="ContentContainer">
+        Имя <input type="text" class="txtName">
+        <div class="contentMask hidden" name="Name"> Имя должно состоять только из букв</div>
+    </div>
+    <div class="ContentContainer">
+        Телефон <input type="text" class="txtPhone">
+        <div class="contentMask name hidden" name="Phone"> Телефон в формате +7(ХХХ)ХХХ-ХХХХ</div>
+    </div>
+    <div class="ContentContainer">
+        E-mail <input type="text" class="txtMail">
+        <div class="contentMask hidden" name="Mail"> Пример формата email: address@mail.ru </div>
+    </div>
+    <div class="ContentContainer">
+        Комментарий <input type="text" class="txtComment">
+        <div class="contentMask hidden" name="Comment"> Не должно быть путо :)</div>
+    </div>
+
+    <input type="button" value="Отправить" class="btnSend">
+</form>
+
+</html>

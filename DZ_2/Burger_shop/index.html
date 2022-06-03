@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Добро пожаловать в JS_Burgers!</h2>
+        <input type="Button" class="cartButton" value="Корзина">
+    </header>
+    <div class="cart hidden">
+        <h4 class="CartH4">В корзине:</h4>
+        <div class="cartProducts"></div>
+    </div>
+    <main>
+        <div class="prodContainer">
+            <div class="prodItem">
+                <h3>Выберите размер:</h3>
+                <input type="radio" class="burger_type" name="product" value="SeniorJS" data-price="100"
+                    data-calories="40" checked>
+                <label for="bigburger">SeniorJS (100 рублей и целых 40 калорий для мозга)</label><br>
+                <input type="radio" class="burger_type" name="product" value="JuniorJS" data-price="50"
+                    data-calories="20">
+                <label for="smallburger">JuniorJS (всего 50 рублей за перекус в 20 калорий)</label>
+            </div>
+            <div class="prodItem">
+                <h3>Выберите начинку:</h3>
+                <input type="radio" class="burger_type" name="addings" value="+Cheese" data-price="10"
+                    data-calories="20" checked>
+                <label for="cheese">Сыр (+10 рублей, +20 калорий)</label><br>
+                <input type="radio" class="burger_type" name="addings" value="+Salad" data-price="20" data-calories="5">
+                <label for="salad">Салат (+20 рублей, +5 калорий)</label><br>
+                <input type="radio" class="burger_type" name="addings" value="+Potato" data-price="15"
+                    data-calories="10">
+                <label for="potato">Картофель (+15 рублей, +10 калорий)</label><br>
+            </div>
+            <div class="prodItem">
+                <h3>Опции:</h3>
+                <input type="checkbox" class="burger_type" name="topings" value="+Spices" data-price="15"
+                    data-calories="0" checked>
+                <label for="seasoning">Добавить приправ (+15 рублей, 0 калорий)</label><br>
+                <input type="checkbox" class="burger_type" name="topings" value="+Mayonnaise" class="hamburger-input"
+                    data-price="20" data-calories="5">
+                <label for="mayonnaise">Добавить майонез (+20 рублей, +5 калорий)</label><br>
+            </div>
+        </div>
+        <input type="Button" class="putToCartButton" value="Купить">
+    </main>
+
+
+
+    <script src="burgers.js"></script>
+</body>
+
+</html>
