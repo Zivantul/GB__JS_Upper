@@ -1,0 +1,40 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.ContentContainer {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btnSend {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.redBorder {
+    border: solid 3px;
+    border-color: red;
+}
+
+.attentionMsg {
+    margin-bottom: 10px;
+    color: red;
+}
+
+.contentMask {
+    font-size: small;
+    color: gray;
+}
+
+.hidden {
+    display: none;
+}
