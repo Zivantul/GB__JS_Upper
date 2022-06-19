@@ -1,0 +1,30 @@
+[
+  {
+    "id_product": 100,
+    "product_name": "Honda CBR1000",
+    "price": 15600,
+    "imgProduct": "./img/products/100.png",
+    "imgCart": "./img/cart/100.png"
+  },
+  {
+    "id_product": 200,
+    "product_name": "HD RoadKing",
+    "price": 28100,
+    "imgProduct": "./img/products/200.png",
+    "imgCart": "./img/cart/200.png"
+  },
+  {
+    "id_product": 300,
+    "product_name": "GoldWing",
+    "price": 24400,
+    "imgProduct": "./img/products/300.png",
+    "imgCart": "./img/cart/300.png"
+  },
+  {
+    "id_product": 400,
+    "product_name": "BMW GS1200",
+    "price": 19700,
+    "imgProduct": "./img/products/400.png",
+    "imgCart": "./img/cart/400.png"
+  }
+]
